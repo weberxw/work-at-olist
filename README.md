@@ -31,37 +31,37 @@ After that the API will import all Authors to the database taking care to not al
 
 ### Services
 
-* **https://weber-olist.herokuapp.com/library/authors/** - Get a paginated list of Authors
+* **https://olistapi.herokuapp.com/library/authors/** - Get a paginated list of Authors
 
-* **https://weber-olist.herokuapp.com/library/authors/?q=name** - Get authors filtered by full name or part of it
+* **https://olistapi.herokuapp.com/library/authors/?q=name** - Get authors filtered by full name or part of it
 	 
-     ex. https://weber-olist.herokuapp.com/library/authors/?q=George R. R. Martin
+     ex. https://olistapi.herokuapp.com/library/authors/?q=George R. R. Martin
 
-* **https://weber-olist.herokuapp.com/library/books/** - Get a paginated list of Books
+* **https://olistapi.herokuapp.com/library/books/** - Get a paginated list of Books
 
-* **https://weber-olist.herokuapp.com/library/books/{ID}/** - get a specific book by ID
+* **https://olistapi.herokuapp.com/library/books/{ID}/** - get a specific book by ID
 	
-    ex. https://weber-olist.herokuapp.com/library/books/12/  
+    ex. https://olistapi.herokuapp.com/library/books/12/  
 
-* **https://weber-olist.herokuapp.com/library/books/?name='name'** - get a list of books filtered by name
+* **https://olistapi.herokuapp.com/library/books/?name='name'** - get a list of books filtered by name
 	
-    ex. https://weber-olist.herokuapp.com/library/books/?name='The song of ice and fire'
+    ex. https://olistapi.herokuapp.com/library/books/?name='The song of ice and fire'
 
-* **https://weber-olist.herokuapp.com/library/books/?year=YEAR** - get a list of books filtered by publication year
+* **https://olistapi.herokuapp.com/library/books/?year=YEAR** - get a list of books filtered by publication year
 	
-    ex. https://weber-olist.herokuapp.com/library/books/?year=2015  
+    ex. https://olistapi.herokuapp.com/library/books/?year=2015  
 
-* **https://weber-olist.herokuapp.com/library/books/?edition='edition'** - get a list of books filtered by edition
+* **https://olistapi.herokuapp.com/library/books/?edition='edition'** - get a list of books filtered by edition
 	
-    ex. https://weber-olist.herokuapp.com/library/books/?edition="First Edition"
+    ex. https://olistapi.herokuapp.com/library/books/?edition="First Edition"
 
-* **https://weber-olist.herokuapp.com/library/books/?author='name'** - get a list of books filtered by author's name
+* **https://olistapi.herokuapp.com/library/books/?author='name'** - get a list of books filtered by author's name
 	
-    ex. https://weber-olist.herokuapp.com/library/books/?author="George R. R. Martin"
+    ex. https://olistapi.herokuapp.com/library/books/?author="George R. R. Martin"
   
  **Note:** You can use a composition of this four filters too using the & character, for example:
 	
-ex. https://weber-olist.herokuapp.com/library/books/?author="George R. R. Martin"&year=2015
+ex. https://olistapi.herokuapp.com/library/books/?author="George R. R. Martin"&year=2015
 
 
 ### Testing
