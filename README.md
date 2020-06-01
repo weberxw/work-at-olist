@@ -39,25 +39,25 @@ After that the API will import all Authors to the database taking care to not al
 
 * **POST https://olistapi.herokuapp.com/library/books/** - Add a new book
 
-Body:
+    Body:
 
-{
-    "name": "This is a test book",
-    "edition": "First Edition",
-    "publication_year": 2015,
-    "authors": [1,2]
-}
+    {
+        "name": "This is a test book",
+        "edition": "First Edition",
+        "publication_year": 2015,
+        "authors": [1,2]
+    }
 
 * **PATCH https://olistapi.herokuapp.com/library/books/{ID}/** - Update an existent book by ID
 
-Body:
+    Body:
 
-{
-    "name": "This name was edited",
-    "edition": "Second Edition",
-    "publication_year": 2015,
-    "authors": [3]
-}
+    {
+        "name": "This name was edited",
+        "edition": "Second Edition",
+        "publication_year": 2015,
+        "authors": [3]
+    }
 
 * **DELETE https://olistapi.herokuapp.com/library/books/{ID}/** - Delete an existent book by ID
 
